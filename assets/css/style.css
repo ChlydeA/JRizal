@@ -763,6 +763,83 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     animation-iteration-count: infinite;
     animation-duration:1s;
 }
+
+
+
+
+
+
+
+.single-profile .btn-link {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    background-color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+    border: #000 solid  1px;
+}
+
+.single-profile:hover .btn-link {
+    display: block;
+    color: #fff;
+}
+.single-profile:hover .btn-link:hover {
+    color: #000;
+}
+
+
+
+
+.btn-link-bottom-right {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.btn-link {
+    background-color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    transition: ease .5s;
+}
+.btn-link a {
+    color: white;
+}
+.btn-link:hover {
+    background-color: white;
+    border: #000 1px solid;
+}
+.btn-link:hover a {
+    color: #000;
+}
+
+.mon-link {
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    transition: ease .5s;
+}
+.mon-link:hover {
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    border: #000 solid 1px;
+}
+
+iframe {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    width: 80vw;
+}
+
+
 @keyframes example {
     0%   {bottom:0px;}
     100%  {bottom:7px;}
